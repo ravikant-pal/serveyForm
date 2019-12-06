@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Space Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="box">
+        <h2>Space Survey Form</h2>
+        <form>
+          <div class="inputBox">
+            <input type="text" name="" required />
+            <label>Your Name</label>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required />
+            <label>Your Email</label>
+          </div>
+          <div class="inputBox">
+            <input type="number" name="" required />
+            <label>Your Age (Optional)</label>
+          </div>
+          <div class="selectBox">
+            <label for="name"
+              >Which option best describes your current role?</label
+            >
+            <br />
+            <select name="role" id="role">
+              <option value="select" selected>Select current role </option>
+              <option value="student">Student</option>
+              <option value="fullTimeJob">Full Time Job</option>
+              <option value="FullTimeLearner">Full Time Learner</option>
+              <option value="PNTS">Prefer not to say</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+          <div class="radioBox">
+            <label for="name"
+              >Are you intrusted in
+              <strong><cite>Space Exploration & Technology </cite></strong
+              >?</label
+            >
+            <br />
+            <input type="radio" name="intrust" value="male" /> Yup Always<br />
+            <input type="radio" name="intrust" value="female" /> Science
+            childhood <br />
+            <input type="radio" name="intrust" value="female" /> Little bit<br />
+            <input type="radio" name="intrust" value="other" /> No not at all
+          </div>
+
+          <div class="selectBox">
+            <label for="name">Which one is Your Fevorite Galaxy name ?</label>
+            <br />
+            <select name="gName" id="gName">
+              <option value="select" selected>Select galaxy </option>
+              <option value="MilkyWay"> Milky Way</option>
+              <option value="Andromeda"> Andromeda Galaxy</option>
+              <option value="Whirlpool"> Whirlpool Galaxy</option>
+              <option value="Somberero"> Somberero Galaxy</option>
+              <option value="GG"> Galactic Galaxy</option>
+            </select>
+          </div>
+          <div class="checkBox">
+            <label for="name">
+              On which <strong><cite>Planat </cite></strong>you wanna go in
+              future?</label
+            >
+            <br />
+            <input type="checkbox" name="Mars" value="Mars" checked />
+            Mars<br />
+            <input type="checkbox" name="Jupitar" value="Jupitar" />
+            Jupitar<br />
+            <input type="checkbox" name="Saturn" value="Saturn" /> Saturn<br />
+            <input type="checkbox" name="other" value="Beyond" /> Beyond the
+            galaxy<br />
+          </div>
+          <div class="textBox">
+            <label for="name"
+              >Any comments or suggestions? if you wanna give</label
+            >
+            <br />
+
+            <textarea name="connemt" id="txt" rows="6"> </textarea>
+          </div>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
